@@ -14,3 +14,5 @@ hello.sqrt(1e60)
 hello.factorial(6)
 
 hello.gcd(12, 70)
+
+hello.sum(hello.cube)(1, 10)

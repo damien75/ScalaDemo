@@ -36,4 +36,13 @@ class Hello {
   final def gcd(a: Int, b: Int): Int =
     if (b == 0) a else gcd(b, a % b)
 
+  def cube(x: Int) = x * x * x
+
+  def sum(f:Int => Int): (Int, Int) => Int = {
+    def sumF(a: Int, b: Int): Int =
+      if (a > b) 0
+      else f(a) + sumF(a + 1, b)
+
+    sumF
+  }
 }
