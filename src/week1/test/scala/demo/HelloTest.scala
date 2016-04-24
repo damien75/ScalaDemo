@@ -1,5 +1,4 @@
-package demo
-
+import demo.Hello
 import org.scalatest.FunSuite
 
 /**

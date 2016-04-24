@@ -1,4 +1,5 @@
-package demo
+import demo.fixedPoint
+
 import math.sqrt
 
 import org.scalatest.FunSuite
