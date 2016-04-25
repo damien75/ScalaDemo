@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/week1/main/scala/demo/Hello.scala" />
+      <file url="file://$PROJECT_DIR$/src/week1/main/scala/demo/fixedPoint.scala" />
+      <file url="file://$PROJECT_DIR$/src/week1/test/scala/demo/HelloTest.scala" />
+      <file url="file://$PROJECT_DIR$/src/week1/test/scala/demo/fixedPointTest.scala" />
+    </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
